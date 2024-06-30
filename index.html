@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Complied and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>J's URBAN OASIS | ONLINE BOOKING </title>
+
+</head>
+<body>
+
+    <!--Header-->
+    <header class="main-header">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" 
+                    class="brand-logo">J's URBAN OASIS
+                <i class="material-icons">home</i>
+            </a>
+                    <a href="#" data-target="slide-out"
+                    class="sidenav-trigger">
+                        <i class="material-icons">dashboard</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down"></li>
+                        <li>
+                            <a href="services.html"
+                            class="waves-effect waves-light btn pulse cyan">BOOK NOW!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--sidenav if turns to mobile size-->
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="services.html"
+                class="waves-effect waves-light btn pulse black">BOOK NOW!</a>
+            </li>
+        </ul>
+    </header>
+
+
+
+
+    <!--Footer-->
+<div class="footer-copyright black-text">
+    <div class="container">
+    © 2024 Copyright J's Getaway. All rights reserved. 
+    <a class="black-text right" 
+        href="#!">Jay Y.</a>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!---->
+    <!--JQueryCDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+    crossorigin="anonymous"></script>
+    <!--Compiled and miified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
+    <!---initialization-->
+    <script>
+            $(document).ready(function(){
+    
+    //Fixed action button
+    $('.fixed-action-btn').floatingActionButton({
+    
+    });
+    
+    //sidenav init
+    $('.sidenav').sidenav({
+                edge: 'right'
+    });
+
+    // materialbox init
+    $('.materialboxed').materialbox();
+
+    //Modal init
+    $('.modal').modal();
+
+    //Parallax init
+    $('.parallax').parallax();
+
+    $('.slider').slider({
+            inDuration:1000,
+            outDuration:1000
+        });
+
+        
+});
+
+
+
+    
+
+    </script>
+
+</body>
+</html>
